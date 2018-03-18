@@ -14,9 +14,11 @@ export default class ScoreListItem extends React.Component {
         style={{
           flexDirection: "row",
           height: this.rowH + 5,
-          borderWidth: 2,
+          borderBottomWidth: 1,
+          borderTopWidth: 0,
           borderColor: "#757575",
-          backgroundColor: "#262628"
+          backgroundColor: "#262628",
+          flex: 1
         }}
       >
         <View
@@ -27,29 +29,29 @@ export default class ScoreListItem extends React.Component {
             paddingLeft: 2
           }}
         >
-          <Text style={{ color: "#757575" }}>3Q</Text>
+          <Text style={{ color: "#757575" }}>{this.props.gameTime}</Text>
         </View>
         <View style={{ flex: 1, height: this.rowH }}>
           <View style={{ flex: 1, justifyContent: "center" }}>
             <Text style={{ fontSize: 18, color: "#d1d1d1" }}>
-              New Orleans Pelicans
+              {this.props.homeTeam}
             </Text>
           </View>
           <View style={{ flex: 1, justifyContent: "center" }}>
             <Text style={{ fontSize: 18, color: "#d1d1d1" }}>
-              Houston Rockets
+              {this.props.awayTeam}
             </Text>
           </View>
         </View>
         <View style={{ height: this.rowH, width: 30, marginRight: 5 }}>
           <View style={{ flex: 1, justifyContent: "center", alignItems: 'flex-end' }}>
             <Text style={{ fontSize: 18, color: "#f7aa10" }}>
-              112
+              {this.props.homeScore}
             </Text>
           </View>
           <View style={{ flex: 1, justifyContent: "center", alignItems: 'flex-end' }}>
             <Text style={{ fontSize: 18, color: "#f7aa10" }}>
-              96
+              {this.props.awayScore}
             </Text>
           </View>
         </View>
