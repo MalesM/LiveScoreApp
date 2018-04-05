@@ -17,11 +17,12 @@ export default class ScoreList extends React.Component{
           renderRow={(item) => 
           <ListItem style={{height: 45,  marginLeft: 0, paddingRight: 0}}>
             <ScoreListItem 
-              gameTime={item.gameTime}
+              gameTime={item.time}
               homeTeam={item.homeTeam}
               awayTeam={item.awayTeam}  
               homeScore={item.homeScore}  
               awayScore={item.awayScore}    
+              starts={(item.homeScore === '') ? false : true}
             />
           </ListItem>
           }>

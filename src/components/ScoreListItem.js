@@ -24,9 +24,9 @@ export default class ScoreListItem extends React.Component {
         <View
           style={{
             height: this.rowH,
-            width: 30,
+            width: 50,
             justifyContent: "center",
-            paddingLeft: 2
+            paddingLeft: 4
           }}
         >
           <Text style={{ color: "#757575" }}>{this.props.gameTime}</Text>
@@ -63,7 +63,7 @@ export default class ScoreListItem extends React.Component {
             alignItems: "center"
           }}
         >
-          <Text style={{ fontSize: 20, color: "#686868" }}>{">"}</Text>
+          {this.props.starts ? <Text style={{ fontSize: 20, color: "#686868" }}>{">"}</Text> : null}
         </View>
       </View>
     );
