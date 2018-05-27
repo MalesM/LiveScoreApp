@@ -3,192 +3,192 @@
 
     <item
         is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_91905ed5c3fea01da27ef24ce0ffe291757312fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_195ffb67e07afee959b18117a10fb07a48327743.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_8bc09f186cd3e4d9802af792d62bc203a0730498.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_3dee830a833a4f2dbfbc6191cbb871d7c12093f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_c71b37625c9eb67918b32cf153e59ac3579243da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_a4744ef8554b2e20c0ea69b6f5545b58bb7f4f81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ce87d6177ed10da51cb6defd366930fed57c6807.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_9c731af642ddc4f7aedc406b51e8ee879d3c7790.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_f35337a4f2b5ba7897efb46740060bec4a62949a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_f840228077846731dfcb48aec139f4d3af8b725f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_18213ecc074261d746aefcbd71598474bf5cb6e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_38492540b91467b1c34ff18fec3c0f4d41ba8be7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3f8aafad2a9fc9d5f81e5342746cb999de75c131.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_e6edc3b25da7a62bfad6b73cf9fbad8838f302cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_6e139386304874304eae04d340052a06864a9829.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_0eb291760bb08516185c71cad56f237d8f9fa82c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_8afa68be1542182ab4ccbcad271726f41cd7a94d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_d5aa1b8bb40622ef1a956f22456c597e5e75e3c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_6afcdfce3878cb360ff7c328518b9b8bde1d99ca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_1859d69fddbd7a7c7042264a21defbd3cca9d2d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Gospodin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="E:\projekti\reactNative\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_781c158249804c623474c63d3982ef9dd5e23139.jar" />
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_628c5592a070ba19aed844dac904b958c4077174.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_bd8d59fdebe8c64a30836b043267abb1b615b893.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_05e5948bffc9d1b772d942a6c048d9c2b4ad8ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_1b53e1b890ece31e8b2ac242032b88ca93177425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_308f3de6365fbf75598560c58aa1876538f3de4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_2d51e7f0b94d3c5a697dd78b205329f759c591ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_c8543961dd3c5095120ccbb61f9146ada456a71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_183dc9e77e6db8a649f3c5a6187213df4baa783e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_92a4a87217ade89190d1680dc905f3c6c856bbe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_5e77401f62984b86081306812994b34a0b558315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_6d1b4f6f3288e3a870a67a1fb4bf585fa4b7f3a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_9958436b464a358051a16695ae373e97a5624942.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_f5c9ca11c070f339cfa4cd7852ca42873b8ccd5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_4351a776da8ab9130f1de0bad086b7ba1573ed05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_fe609ded6e62f645236aef92f168415454883a29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_0a4001215b04fe2b8812f8968fba02111c8f49e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_e190e39b44712f3e475e86593fd0713b331e83a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_eb0dde039d4a0808bc75dc1c30c0b460d4b0735d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_b87cbd9feb99dd2ccc7d1cb39f3adb7bc0401ae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_3eede8d0ebc289d3f6c57212f0026f16608dbe30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mm120153d\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\projekti\reactNative\LiveScoreApp\LiveScoreApp\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_e582156453b477e7615a00524ca1d7894b05561c.jar" />
     </item>
 
 </items>
