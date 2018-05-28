@@ -1,27 +1,27 @@
 import React from 'react';
 import {View, ActivityIndicator, Text, StyleSheet} from 'react-native';
 import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from 'native-base';
+import {connect} from 'react-redux';
+import {fetchScores} from '../actions/scoresAction';
 import GameList from '../components/ScoresList';
 
-export default class MainFeed extends React.Component{
+class MainFeed extends React.Component{
   constructor(props){
     super(props);
 
-    this.state = {
+    /* this.state = {
       isLoading: true,
       data: [],
-    }
+    } */
   }
 
   componentDidMount = () => {
-    fetch('https://ad7c8f67.ngrok.io/basketball')
-      .then(response => response.json())
-      .then(responseJson => this.setState({data: responseJson, isLoading: false}))
-      .catch(err => console.log(err))
+    this.props.fetchScores();
   };
   
 
   render(){
+    console.log(this.props.data.length);
     return(
       <Container>
         <Header style={{backgroundColor: '#262628'}}>
@@ -38,8 +38,8 @@ export default class MainFeed extends React.Component{
           <View style={styles.basketballTitle}>
             <Text style={{color: '#e2e2e2'}} >Basketball</Text>
           </View>
-          {this.state.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
-            <GameList gameList={this.state.data} />
+          {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
+            <GameList gameList={this.props.data} />
           }
         </Content>
       </Container>
@@ -57,4 +57,11 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: "#757575"
   }
-})
+});
+
+const mapStateToProps = state => ({
+  data: state.scores.data,
+  isLoading: state.scores.isLoading
+});
+
+export default connect(mapStateToProps, {fetchScores})(MainFeed)

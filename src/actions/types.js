@@ -1,0 +1,1 @@
+export const FETCH_SCORES = 'FETCH_SCORES';

@@ -6,7 +6,6 @@ import ScoreListItem from './ScoreListItem';
 export default class ScoreList extends React.Component{
   constructor(props){
     super(props);
-    
   }
 
   render(){
