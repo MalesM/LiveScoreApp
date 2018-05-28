@@ -9,10 +9,6 @@ class MainFeed extends React.Component{
   constructor(props){
     super(props);
 
-    /* this.state = {
-      isLoading: true,
-      data: [],
-    } */
   }
 
   componentDidMount = () => {
