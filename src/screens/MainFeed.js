@@ -18,12 +18,12 @@ class MainFeed extends React.Component{
   
 
   render(){
-    console.log(this.props.data.length);
+    //console.log(this.props.data.length);
     return(
       <Container>
         <Header style={{backgroundColor: '#262628'}}>
           <Left>
-            <Button transparent>
+            <Button transparent onPress={() => {this.props.navigation.openDrawer();}}>
               <Icon name='menu' />
             </Button>
           </Left>

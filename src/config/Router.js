@@ -1,11 +1,13 @@
 import React from 'react';
-import {createStackNavigator, createBottomTabNavigator } from 'react-navigation';
+import {createStackNavigator, createBottomTabNavigator, createDrawerNavigator } from 'react-navigation';
 import Scores from '../screens/MainFeed';
+import ScoreDetails from '../screens/ScoreDetails';
 import {Icon} from 'native-base';
 
 const ScoresRoute = createStackNavigator(
   {
-    Home: Scores
+    Home: Scores,
+    Details: ScoreDetails
   },
   {
     initialRouteName: 'Home',
@@ -13,9 +15,9 @@ const ScoresRoute = createStackNavigator(
       header: null
     }
   }
-)
+);
 
-export const Router = createBottomTabNavigator(
+const TabRouter = createBottomTabNavigator(
   {
     Scores: ScoresRoute,
     Live: ScoresRoute,
@@ -45,7 +47,10 @@ export const Router = createBottomTabNavigator(
       style: {
         backgroundColor: '#262628',
       },
-    },
-    
+    }, 
   }
-)
+);
+
+export const Router = createDrawerNavigator({
+  Baketball: TabRouter
+})
