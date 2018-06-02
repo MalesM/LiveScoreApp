@@ -4,6 +4,7 @@ import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from
 import {connect} from 'react-redux';
 import {fetchScores} from '../actions/scoresAction';
 import GameList from '../components/ScoresList';
+import games from '../raw/games';
 
 class MainFeed extends React.Component{
   constructor(props){
@@ -12,7 +13,7 @@ class MainFeed extends React.Component{
   }
 
   componentDidMount = () => {
-    this.props.fetchScores();
+    //this.props.fetchScores();
   };
   
 
@@ -34,8 +35,8 @@ class MainFeed extends React.Component{
           <View style={styles.basketballTitle}>
             <Text style={{color: '#e2e2e2'}} >Basketball</Text>
           </View>
-          {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
-            <GameList gameList={this.props.data} />
+          {!this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
+            <GameList gameList={ games}/>//this.props.data} />
           }
         </Content>
       </Container>
