@@ -1,6 +1,7 @@
 import {combineReducers} from 'redux';
-import sr from './scoresReducer';
+import {allScores, liveScores} from './scoresReducer';
 
 export default combineReducers({
-  scores: sr
+  scores: allScores,
+  //live: liveScores
 })

@@ -2,6 +2,8 @@ import React from 'react';
 import {createStackNavigator, createBottomTabNavigator, createDrawerNavigator } from 'react-navigation';
 import Scores from '../screens/MainFeed';
 import ScoreDetails from '../screens/ScoreDetails';
+import Live from '../screens/LiveFeed';
+import Table from '../screens/Table';
 import {Icon} from 'native-base';
 
 const ScoresRoute = createStackNavigator(
@@ -17,11 +19,24 @@ const ScoresRoute = createStackNavigator(
   }
 );
 
+const LiveScoresRoute = createStackNavigator(
+  {
+    Home: Live,
+    Details: ScoreDetails
+  },
+  {
+    initialRouteName: 'Home',
+    navigationOptions:{
+      header: null
+    }
+  }
+);
+
 const TabRouter = createBottomTabNavigator(
   {
     Scores: ScoresRoute,
-    Live: ScoresRoute,
-    Menu: ScoresRoute
+    Live: LiveScoresRoute,
+    Table: Table
   },
   {
     navigationOptions: ({navigation}) => ({
@@ -33,8 +48,8 @@ const TabRouter = createBottomTabNavigator(
           iconName = `ios-basketball${focused ? '' : '-outline'}`;
         } else if (routeName === 'Live') {
           iconName = `ios-stopwatch${focused ? '' : '-outline'}`;
-        } else if (routeName === 'Menu') {
-          iconName = `ios-menu${focused ? '' : '-outline'}`;
+        } else if (routeName === 'Table') {
+          iconName = `ios-list-box${focused ? '' : '-outline'}`;
         }
 
         return <Icon name={iconName} style={{color: tintColor}} />
@@ -52,5 +67,5 @@ const TabRouter = createBottomTabNavigator(
 );
 
 export const Router = createDrawerNavigator({
-  Baketball: TabRouter
+  Basketball: TabRouter
 })

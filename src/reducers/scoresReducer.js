@@ -1,21 +1,48 @@
-import {FETCH_SCORES} from '../actions/types';
+import { FETCH_SCORES, FETCH_LIVE } from "../actions/types";
 
 const initialState = {
   data: [],
-  isLoading: true
-}
+  liveData: [],
+  isLoading: true,
+  isLoadingLive: true
+};
 
-const sr = (state = initialState, action) => {
-  switch(action.type){
+/* const initialStateLive = {
+  liveData: [],
+  isLoading: true
+}; */
+
+export const allScores = (state = initialState, action) => {
+  switch (action.type) {
     case FETCH_SCORES:
       return {
         ...state,
         data: action.payload,
         isLoading: false
       };
+    case FETCH_LIVE: {
+      const live = state.data.filter(elem => elem.time.includes('Q'))
+      return {
+        ...state,
+        liveData: live,
+        isLoadingLive: false
+      };
+    }
     default:
       return state;
   }
-}
+};
 
-export default sr;
+/* export const liveScores = (state = initialStateLive, action) => {
+  switch (action.type) {
+    case FETCH_LIVE:
+      return {
+        liveData: action.payload,
+        isLoading: false
+      };
+    default:
+      return state;
+  }
+}; */
+
+//export default sr;

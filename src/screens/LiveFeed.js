@@ -2,16 +2,16 @@ import React from 'react';
 import {View, ActivityIndicator, Text, StyleSheet} from 'react-native';
 import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from 'native-base';
 import {connect} from 'react-redux';
-import {fetchScores} from '../actions/scoresAction';
+import {fetchLive} from '../actions/scoresAction';
 import GameList from '../components/ScoresList';
 
-class MainFeed extends React.Component{
+class LiveFeed extends React.Component{
   constructor(props){
     super(props);
   }
 
   componentDidMount = () => {
-    this.props.fetchScores();
+    this.props.fetchLive();
   };
   
   render(){
@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = state => ({
-  data: state.scores.data,
-  isLoading: state.scores.isLoading
+  data: state.scores.liveData,
+  isLoading: state.scores.isLoadingLive
 });
 
-export default connect(mapStateToProps, {fetchScores})(MainFeed)
+export default connect(mapStateToProps, {fetchLive})(LiveFeed)
