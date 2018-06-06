@@ -25,7 +25,7 @@ class LiveFeed extends React.Component{
             </Button>
           </Left>
           <Body >
-            <Title style={{color: '#f7aa10'}}>Basketball Scores</Title>
+            <Title style={{color: '#f7aa10'}}>Basketball \ Live</Title>
           </Body>
         </Header>
         <Content style={{backgroundColor: '#262628'}} >

@@ -1,36 +1,35 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from "react";
+import { View, Text } from "react-native";
 
 export default class TableListItem extends React.Component {
   render() {
     return (
-      <View>
-        <View>
-         <Text>
-          1
-         </Text>
+      <View
+        style={{
+          flex: 1,
+          height: 30,
+          alignItems: "center",
+          flexDirection: "row",
+        
+          backgroundColor: this.props.bgc
+        }}
+      >
+        <View style={{ padding: 5 }}>
+          <Text style={{ color: "#d1d1d1" }}>{this.props.rank}</Text>
         </View>
-        <View>
-         <Text>
-          {'Oklahoma City Thunder'}
-         </Text>
+        <View style={{ flex: 1, paddingLeft: 5 }}>
+          <Text style={{ color: "#d1d1d1" }}>{this.props.team}</Text>
         </View>
-        <View>
-         <Text>
-          82
-         </Text>
+        <View style={{ padding: 15 }}>
+          <Text style={{ color: "#d1d1d1" }}>{this.props.P}</Text>
         </View>
-        <View>
-         <Text>
-          280
-         </Text>
+        <View style={{ padding: 5 }}>
+          <Text style={{ color: "#d1d1d1" }}>{this.props.SD}</Text>
         </View>
-        <View>
-         <Text>
-          0.585
-         </Text>
+        <View style={{ padding: 5 }}>
+          <Text style={{ color: "#d1d1d1" }}>{this.props.PER}</Text>
         </View>
       </View>
-    )
+    );
   }
-};
+}

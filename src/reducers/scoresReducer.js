@@ -1,16 +1,13 @@
-import { FETCH_SCORES, FETCH_LIVE } from "../actions/types";
+import { FETCH_SCORES, FETCH_LIVE, FETCH_TABLE } from "../actions/types";
 
 const initialState = {
   data: [],
   liveData: [],
+  table: [],
   isLoading: true,
-  isLoadingLive: true
+  isLoadingLive: true,
+  isLoadingTable: true
 };
-
-/* const initialStateLive = {
-  liveData: [],
-  isLoading: true
-}; */
 
 export const allScores = (state = initialState, action) => {
   switch (action.type) {
@@ -28,21 +25,14 @@ export const allScores = (state = initialState, action) => {
         isLoadingLive: false
       };
     }
+    case FETCH_TABLE:
+      return {
+        ...state,
+        table: action.payload,
+        isLoadingTable: false
+      }
     default:
       return state;
   }
 };
 
-/* export const liveScores = (state = initialStateLive, action) => {
-  switch (action.type) {
-    case FETCH_LIVE:
-      return {
-        liveData: action.payload,
-        isLoading: false
-      };
-    default:
-      return state;
-  }
-}; */
-
-//export default sr;

@@ -15,7 +15,6 @@ class MainFeed extends React.Component{
   };
   
   render(){
-    //console.log(this.props.data.length);
     return(
       <Container>
         <Header style={{backgroundColor: '#262628'}}>
@@ -25,12 +24,12 @@ class MainFeed extends React.Component{
             </Button>
           </Left>
           <Body >
-            <Title style={{color: '#f7aa10'}}>Basketball Scores</Title>
+            <Title style={{color: '#f7aa10'}}>Basketball \ Scores</Title>
           </Body>
         </Header>
         <Content style={{backgroundColor: '#262628'}} >
           <View style={styles.basketballTitle}>
-            <Text style={{color: '#e2e2e2'}} >Basketball</Text>
+            {/* <Text style={{color: '#e2e2e2'}} >Basketball</Text> */}
           </View>
           {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
             <GameList gameList={this.props.data} />

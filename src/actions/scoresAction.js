@@ -1,9 +1,10 @@
-import { FETCH_SCORES, FETCH_LIVE } from "./types";
+import { FETCH_SCORES, FETCH_LIVE, FETCH_TABLE } from "./types";
 
-const URL = "https://dd158d5d.ngrok.io/basketball";
+const scoresURL = "https://befbc54a.ngrok.io/basketball";
+const tableURL = "https://befbc54a.ngrok.io/basketball/table"
 
 export const fetchScores = () => dispatch => {
-  fetch("https://367b6a9b.ngrok.io/basketball")
+  fetch(scoresURL)
     .then(response => response.json())
     .then(responseJson =>
       dispatch({
@@ -17,14 +18,13 @@ export const fetchLive = () => ({
  type: FETCH_LIVE
 })
 
-/* export const fetchLive = () => dispatch => {
-  fetch("https://ca2d1976.ngrok.io/basketball")
+export const fetchTable = () => dispatch => {
+  fetch(tableURL)
     .then(response => response.json())
     .then(responseJson => {
-      let live = responseJson.filter(elem => elem.time.includes('FT'))
       dispatch({
-        type: FETCH_LIVE,
-        payload: live
+        type: FETCH_TABLE,
+        payload: responseJson
       });
     });
-}; */
+};

@@ -3,8 +3,8 @@ import {createStackNavigator, createBottomTabNavigator, createDrawerNavigator, c
 import Scores from '../screens/MainFeed';
 import ScoreDetails from '../screens/ScoreDetails';
 import Live from '../screens/LiveFeed';
-//import Table from '../screens/Table';
-import Table from '../components/TableListItem';
+import Table from '../screens/Table';
+//import Table from '../components/TableListItem';
 import {Icon} from 'native-base';
 
 const ScoresRoute = createStackNavigator(
