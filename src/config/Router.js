@@ -1,9 +1,10 @@
 import React from 'react';
-import {createStackNavigator, createBottomTabNavigator, createDrawerNavigator } from 'react-navigation';
+import {createStackNavigator, createBottomTabNavigator, createDrawerNavigator, createMaterialTopTabNavigator } from 'react-navigation';
 import Scores from '../screens/MainFeed';
 import ScoreDetails from '../screens/ScoreDetails';
 import Live from '../screens/LiveFeed';
-import Table from '../screens/Table';
+//import Table from '../screens/Table';
+import Table from '../components/TableListItem';
 import {Icon} from 'native-base';
 
 const ScoresRoute = createStackNavigator(
