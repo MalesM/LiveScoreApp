@@ -6,6 +6,7 @@ import Live from '../screens/LiveFeed';
 import Table from '../screens/Table';
 //import Table from '../components/TableListItem';
 import {Icon} from 'native-base';
+import {CustomDrawerContentComponent} from '../components/CustomDrawer';
 
 const ScoresRoute = createStackNavigator(
   {
@@ -54,7 +55,8 @@ const TabRouter = createBottomTabNavigator(
         }
 
         return <Icon name={iconName} style={{color: tintColor}} />
-      }
+      },
+      
     }),
 
     tabBarOptions: {
@@ -68,5 +70,10 @@ const TabRouter = createBottomTabNavigator(
 );
 
 export const Router = createDrawerNavigator({
-  Basketball: TabRouter
+  Basketball: TabRouter, 
+},{
+  contentComponent: CustomDrawerContentComponent,
+  contentOptions:{
+    labelStyle: {color: '#e2e2e2'}
+  }
 })

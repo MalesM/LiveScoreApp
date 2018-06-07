@@ -10,7 +10,6 @@ export default class TableListItem extends React.Component {
           height: 30,
           alignItems: "center",
           flexDirection: "row",
-        
           backgroundColor: this.props.bgc
         }}
       >
@@ -21,12 +20,12 @@ export default class TableListItem extends React.Component {
           <Text style={{ color: "#d1d1d1" }}>{this.props.team}</Text>
         </View>
         <View style={{ padding: 15 }}>
-          <Text style={{ color: "#d1d1d1" }}>{this.props.P}</Text>
+          <Text style={{ color: "#d1d1d1", alignItems: 'flex-end' }}>{this.props.P}</Text>
         </View>
-        <View style={{ padding: 5 }}>
+        <View style={{ padding: 5, width: 40, alignItems: 'flex-end' }}>
           <Text style={{ color: "#d1d1d1" }}>{this.props.SD}</Text>
         </View>
-        <View style={{ padding: 5 }}>
+        <View style={{ padding: 5, width: 50, alignItems: 'flex-end' }}>
           <Text style={{ color: "#d1d1d1" }}>{this.props.PER}</Text>
         </View>
       </View>

@@ -4,6 +4,7 @@ import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from
 import {connect} from 'react-redux';
 import {fetchTable} from '../actions/scoresAction';
 import TableList from '../components/TableList';
+import HeaderItem from '../components/TableListItem';
 
 class Table extends React.Component{
   constructor(props){
@@ -29,12 +30,10 @@ class Table extends React.Component{
           </Body>
         </Header>
         <Content style={{backgroundColor: '#262628'}} >
-          <View style={styles.basketballTitle}>
-            <Text style={{color: '#e2e2e2'}} >Basketball</Text>
-          </View>
+          <HeaderItem bgc='#595959' rank='#' team='' P='P' SD='SD' PER='PER' />
           <View style={{flex: 1, backgroundColor: '#262628'}}>
-        {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> : <TableList tableData={this.props.data} />}
-      </View>
+            {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> : <TableList tableData={this.props.data} />}
+          </View>
         </Content>
       </Container>
 

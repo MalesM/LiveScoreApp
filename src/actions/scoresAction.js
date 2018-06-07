@@ -1,7 +1,8 @@
 import { FETCH_SCORES, FETCH_LIVE, FETCH_TABLE } from "./types";
 
-const scoresURL = "https://befbc54a.ngrok.io/basketball";
-const tableURL = "https://befbc54a.ngrok.io/basketball/table"
+const baseURL = 'YOUR_API_HERE'
+const scoresURL = baseURL+"/basketball";
+const tableURL = baseURL+"/basketball/table";
 
 export const fetchScores = () => dispatch => {
   fetch(scoresURL)
