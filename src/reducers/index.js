@@ -3,5 +3,5 @@ import {allScores, liveScores} from './scoresReducer';
 
 export default combineReducers({
   scores: allScores,
-  //live: liveScores
+  
 })

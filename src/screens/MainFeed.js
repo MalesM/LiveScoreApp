@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, ActivityIndicator, Text, StyleSheet} from 'react-native';
-import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from 'native-base';
+import {View, ActivityIndicator, StyleSheet} from 'react-native';
+import {Container, Header, Body, Content, Left, Title, Button, Icon} from 'native-base';
 import {connect} from 'react-redux';
 import {fetchScores} from '../actions/scoresAction';
 import GameList from '../components/ScoresList';
@@ -29,7 +29,7 @@ class MainFeed extends React.Component{
         </Header>
         <Content style={{backgroundColor: '#262628'}} >
           <View style={styles.basketballTitle}>
-            {/* <Text style={{color: '#e2e2e2'}} >Basketball</Text> */}
+            
           </View>
           {this.props.isLoading ? <ActivityIndicator size="large" color="#f7aa10"/> :
             <GameList gameList={this.props.data} />

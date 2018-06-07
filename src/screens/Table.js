@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Text, ActivityIndicator, StyleSheet} from 'react-native';
-import {Container, Header, Body, Content, Left, Right, Title, Button, Icon} from 'native-base';
+import {View, ActivityIndicator} from 'react-native';
+import {Container, Header, Body, Content, Left, Title, Button, Icon} from 'native-base';
 import {connect} from 'react-redux';
 import {fetchTable} from '../actions/scoresAction';
 import TableList from '../components/TableList';
@@ -15,7 +15,6 @@ class Table extends React.Component{
     this.props.fetchTable();
   };
   
-
   render() {
     return (
       <Container>
@@ -40,18 +39,6 @@ class Table extends React.Component{
     )
   }
 }
-
-const styles = StyleSheet.create({
-  basketballTitle: {
-    flex: 1,
-    height: 25,
-    paddingLeft: 5,
-    justifyContent: 'center',
-    backgroundColor: '#595959',
-    borderBottomWidth: 1,
-    borderColor: "#757575"
-  }
-});
 
 const mapStateToProps = state => ({
   data: state.scores.table,

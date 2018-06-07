@@ -12,7 +12,14 @@ export const fetchScores = () => dispatch => {
         type: FETCH_SCORES,
         payload: responseJson
       })
-    );
+    )
+    .catch(err => {
+      console.log(err);
+      dispatch({
+        type: FETCH_SCORES,
+        payload: []
+      })
+    });
 };
 
 export const fetchLive = () => ({
@@ -27,5 +34,12 @@ export const fetchTable = () => dispatch => {
         type: FETCH_TABLE,
         payload: responseJson
       });
+    })
+    .catch(err => {
+      console.log(err);
+      dispatch({
+        type: FETCH_TABLE,
+        payload: []
+      })
     });
 };

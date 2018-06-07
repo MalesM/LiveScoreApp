@@ -1,8 +1,6 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-//const rowH = 40;
-
 export default class ScoreListItem extends React.Component {
   constructor(props) {
     super(props);

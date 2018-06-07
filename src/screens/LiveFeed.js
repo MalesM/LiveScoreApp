@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, ActivityIndicator, Text, StyleSheet} from 'react-native';
+import {View, ActivityIndicator, StyleSheet} from 'react-native';
 import {Container, Header, Body, Content, Left, Title, Button, Icon} from 'native-base';
 import {connect} from 'react-redux';
 import {fetchLive} from '../actions/scoresAction';
@@ -15,7 +15,6 @@ class LiveFeed extends React.Component{
   };
   
   render(){
-    //console.log(this.props.data.length);
     return(
       <Container>
         <Header style={{backgroundColor: '#262628'}}>
